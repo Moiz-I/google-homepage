@@ -1,5 +1,29 @@
-h1 {
-    display: table; /* keep the background color wrapped tight */
-    margin: 0px auto 0px auto; /* keep the table centered */
-    padding:5px;font-size:30px;background-color:rgb(0, 13, 128);color:#ff9999;
+.center {
+    position: absolute;
+    top: 26.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.bar {
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    height: 20px;
+    width: 500px;
+    border:1px solid #eaeaea;
+    border-radius: 30px;
+    outline:none;
+}
+
+.searchbar {
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    height: 20px;
+    width: 500px;
+    border:1px solid #eaeaea;
+    border-radius: 30px;
+    outline:none;
 }
